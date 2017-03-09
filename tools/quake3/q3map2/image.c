@@ -232,7 +232,7 @@ static void LoadPNGBuffer( byte *buffer, int size, byte **pixels, int *width, in
    LoadWEBPBuffer()
    loads a webp file buffer into a valid rgba image
  */
-
+//FLAG to cull
 static void LoadWEBPBuffer( byte *buffer, int size, byte **pixels, int *width, int *height ){
 
 	int image_width;
@@ -258,7 +258,7 @@ static void LoadWEBPBuffer( byte *buffer, int size, byte **pixels, int *width, i
                 return;
         }       
 }
-
+//END FLAG to cull
 
 
 /*
